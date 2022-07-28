@@ -12,9 +12,10 @@ To compile and run the test, enter *make test* in the terminal.
 
 int main()
 {
+	//map the file
 	auto my_map = mapper::map("my_file.txt");
 	
-	//...
+	//now you can read from and write to the file as if it was a vector...
 }
 ```
 *Copyright (C) 2020 Jean "Jango" Diogo*
