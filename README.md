@@ -15,7 +15,8 @@ int main()
 	//map the file
 	auto my_map = mapper::map("my_file.txt");
 	
-	//now you can read from and write to the file as if it was a vector...
+	//now you can use the file as if it was a vector
+	unsigned char my_value = my_map.at(0);
 }
 ```
 *Copyright (C) 2020 Jean "Jango" Diogo*
